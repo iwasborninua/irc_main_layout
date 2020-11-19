@@ -49,17 +49,65 @@
                         <div class="header-cards-container">
                             <div class="col-md-4">
                                 <div class="card">
-
+                                    <div class="card-facade">
+                                        <div class="card-caption">Батькам</div>
+                                        <div class="card-icon">
+                                            <img src="img/parents_icon.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-content d-none">
+                                        <div class="card-caption">Батькам</div>
+                                        <div class="list-group">
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                Полезные материалы
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                Вопросы и ответы
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="card">
-
+                                    <div class="card-facade">
+                                        <div class="card-caption">Фахівцям</div>
+                                        <div class="card-icon">
+                                            <img src="img/parents_icon.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-content d-none">
+                                        <div class="card-caption">Фахівцям</div>
+                                        <div class="list-group">
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                Полезные материалы
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                Вопросы и ответы
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="card">
-
+                                    <div class="card-facade">
+                                        <div class="card-caption">Документи</div>
+                                        <div class="card-icon">
+                                            <img src="img/parents_icon.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="card-content d-none">
+                                        <div class="card-caption">Документи</div>
+                                        <div class="list-group">
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                Полезные материалы
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                Вопросы и ответы
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -69,13 +117,15 @@
         </div>
     </header>
 
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
     <script>
-        $('.header-card').hover(function() {
+        $('.card').hover(function() {
             $(this).find('.card-facade').toggleClass('d-none');
             $(this).find('.card-content').toggleClass('d-none');
         });

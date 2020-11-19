@@ -24,6 +24,10 @@ body {
 
 /* header */
 
+header {
+    height: 320px;
+}
+
 header.main_header {
     background-image: url("/img/header_background.png");
     background-size: cover;
@@ -96,5 +100,47 @@ header .bottom_header {
 .header-cards-container .card {
     width: 100%;
     height: 300px;
-    background: #FFE358;
+}
+
+.card-facade {
+    background-color: #FFE358;
+    width: 100%;
+    height: 100%;
+}
+
+.card-caption {
+    font-size: 36px;
+    line-height: 36px;
+    color: #004BC1;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+.card-icon {
+    padding-top: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card-content {
+    background-color: #FFE358;
+    height: 300px;
+}
+
+.list-group {
+    border-radius: none;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #004BC1;
+    padding: .53rem 1.25rem;
+}
+
+.list-group-item:hover {
+    color: #004BC1;
 }
