@@ -1,0 +1,82 @@
+body {
+    font-family: "Proba Pro", "SansSerif";
+    color: #fff;
+}
+
+.flex-left {
+    display: flex;
+    justify-content: left;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Proba Pro';
+    src: url('../fonts/ProbaPro-Regular.ttf') format('truetype');
+}
+
+header.main_header {
+    background-image: url("/img/header_background.png");
+    background-size: cover;
+}
+
+header .header-logo img{
+    padding: 35px 17px 0 0;
+}
+
+header h1.header-caption {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+header h3.header-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: 0.015em;
+    color: #FFE358;
+    margin: 0;
+}
+
+
+header .visual_impairment {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+header .visual_impairment a {
+    font-family: Proba Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+header .login-button {
+    background: #FFE358;
+    font-size: 24px;
+    line-height: 24px;
+    color: #3849F9;
+    padding: 8px 60px;
+}
+
+header .upper_header {
+    border-bottom: 3px solid #FFFFFF;
+    height: 215px;
+}
+
+header .bottom_header {
+    height: 95px;
+}
