@@ -144,3 +144,35 @@ header .bottom_header {
 .list-group-item:hover {
     color: #004BC1;
 }
+
+/* main content */
+
+.main-content {
+    margin-top: 250px;
+}
+
+.count {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 90.5%;
+    color: #004BC1;
+    border-bottom: 4px solid #FFE358;
+    float: left;
+}
+
+.count-info {
+    float: right;
+    font-size: 22px;
+    line-height: 90.5%;
+    color: #3849F9;
+}
+
+.parent-info {
+    margin-top: 60px;
+    font-size: 72px;
+    line-height: 90.5%;
+    color: #3849F9;
+    text-align: left;
+    margin-left: 110px;
+}
