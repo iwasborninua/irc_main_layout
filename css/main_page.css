@@ -359,3 +359,84 @@ form select {
     font-size: 24px;
     outline: none !important;
 }
+
+/* footer */
+footer {
+    /*height: 635px;*/
+    background-image: url("../img/footer_background.png");
+}
+
+footer .footer-caption {
+    font-size: 80px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+footer .footer-description {
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: 0.015em;
+    color: #3849F9;
+}
+
+footer .footer-logo {
+    margin-top: 30px;
+}
+
+footer .banner {
+    margin-top: 40px;
+}
+
+footer .form-caption {
+    font-size: 72px;
+    line-height: 90.5%;
+    color: #3849F9;
+    text-align: right;
+    padding-right: 65px;
+    margin-top: 30px;
+}
+
+.footer-contact-info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 90.5%;
+    /* or 16px */
+    color: #000000;
+    margin-top: 20px;
+}
+
+form.feedback {
+    margin-top: 25px;
+}
+
+form.feedback input {
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 4px 10px;
+    background: #FFFFFF;
+    border: 2px solid #3849F9;
+    box-sizing: border-box;
+}
+
+form.feedback textarea {
+    border: 2px solid #3849F9;
+    box-sizing: border-box;
+}
+
+form.feedback button {
+    font-size: 24px;
+    line-height: 24px;
+    background: #3849F9;
+    color: #FFE358;
+    border-radius: 0;
+    border: none;
+    padding: 3px 32px;
+}
+
+.copyright {
+    width: 200px;
+    letter-spacing: 0.01em;
+    color: #3849F9;
+    margin: 20px auto 20px auto;
+}
