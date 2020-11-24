@@ -88,6 +88,7 @@ header .login-button {
     line-height: 24px;
     color: #3849F9;
     padding: 8px 60px;
+    outline: none !important;
 }
 
 header .upper_header {
@@ -156,6 +157,55 @@ header .bottom_header {
 
 .list-group-item:hover {
     color: #004BC1;
+}
+
+/* modal */
+
+.modal-dialog {
+    width: 400px;
+    color: #000;
+}
+
+.modal-dialog label {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.modal-dialog input{
+    border: 1px solid #3849F9;
+    box-sizing: border-box;
+    border-radius: 0;
+    filter: drop-shadow(0px 4px 3px #EDEDED);
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: none;
+}
+
+.modal-header .close {
+    margin-top: -15px;
+    font-size: 50px;
+}
+
+.modal-dialog .modal-title {
+    font-size: 36px;
+    line-height: 36px;
+    color: #3849F9;
+}
+
+.modal-button {
+    font-size: 24px;
+    line-height: 24px;
+    color: #3849F9;
+    background: #FFE358;
+    width: 100%;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #3849F9;
 }
 
 /* main content */
